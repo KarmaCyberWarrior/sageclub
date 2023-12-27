@@ -8,10 +8,10 @@ export default function Home() {
         
         <p className='text-center mt-20 text-xl'>Welcome to, SageTek opening.<br></br> Join us in building and growing as cyber elites.<br></br>Apply below to one of our two paths,<br></br>The way of the warrior and the way of the creator.</p>
 
-        <div className='mt-20 w-full flex justify-center text-lg font-semibold'>
+        <div className='mt-20 w-full sm:flex sm:justify-center text-lg font-semibold ml-8 sm:ml-0'>
           <button className='w-[15rem] h-12 rounded-md bg-white text-slate-900 hover:bg-slate-700 hover:text-white group'><p className='group-hover:animate-bounce'>Cyber Warrior- Hacker</p></button>
 
-          <button className='w-[15rem] h-12 rounded-md bg-white text-slate-900 ml-20 hover:bg-slate-700 hover:text-white group'><p className='group-hover:animate-bounce'>Cyber Creator- Developer</p></button>
+          <button className='w-[15rem] h-12 rounded-md mt-4 sm:mt-0 bg-white text-slate-900 sm:ml-20 hover:bg-slate-700 hover:text-white group'><p className='group-hover:animate-bounce'>Cyber Creator- Developer</p></button>
         </div>
         
       </div>
